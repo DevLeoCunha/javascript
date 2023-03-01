@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introdução Variável</title>
+    <title>Concatenação/ String</title>
     <style>
         body {
             background-color: rgb(192, 243, 226);
@@ -21,10 +21,8 @@
     <h1>Olá, mundo!</h1> 
     <p>Já me livrei da maldição.</p>
     <script>
-        window.alert('Meu primeiro alerta') // pop up alerta
-        window.confirm('Está gostando de javascript?') // tela confirma
-        window.prompt('Qual é seu nome?') // janela para preencher
-        // Foi feito analogia de estacionamento para explicar o conceito de variável e de memória ocupada. Strings podem vir em torno de "",'' ou ``. Assim variável é uma forma de guardar dados e valores para serem manipulados posteriormente. 
+       var nome = window.prompt('Qual é seu nome?')
+       window.alert('É um grande prazer te conhecer, ' + nome + '!') // + concatenação
     </script>
 </body>
 </html>
