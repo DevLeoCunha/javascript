@@ -16,9 +16,14 @@
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar <strong>DOM</strong> em Javascript</p>
-    <div>Clique em mim</div>
+    <div id="msg">Clique em mim</div>  
     <script>
-        window.document.body
+        var p1 = document.getElementsByTagName('p')[1]// primeiro paragrafo é 0, segundo é 1... 
+        p1.style.color = 'blue'
+        document.write(p1.innerHTML) //innertext pega o html sem a formatação de estilo, já o innerHTML pega toda a formatação.
+        /* var d = window.document.getElementById('msg') Pega o elemento por id.
+        d.style.background = 'green'
+        Id, Class e Name segue o mesmo principio, nomeia a tag em questão e depois a usa referenciando-a, atentando-se caso o "Element(s)" vem no plural que dai é necessario referenciar a qual linha, numeração se refere o elemento em questão para depois fazer as configurações necessárias, ex:backgroundcolor etc... */
     </script>
 </body>
 </html>
