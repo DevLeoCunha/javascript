@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(163, 219, 201);
+    background-color: rgb(250, 177, 246);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 }
 
 section {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
@@ -21,4 +22,9 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+div {
+    text-align: center;
+    padding: 5px;
 }
